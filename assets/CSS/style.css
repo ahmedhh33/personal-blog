@@ -39,8 +39,8 @@
 
 .content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: stretch;
     margin: auto;
 }
 
@@ -93,3 +93,35 @@
     }
     
 }
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .avatar-container {
+    width: 50px; /* Adjust the size of the avatar container */
+  }
+  
+  .avatar {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .contact-info {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a img {
+    width: 30px; /* Adjust the size of the social media icons */
+  }
