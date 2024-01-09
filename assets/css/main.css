@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import './contact.css';
+@import './header_footer.css';
 *{
     margin: 0px;
     padding: 0px;
@@ -96,52 +98,11 @@
     
 }
 
-.site-header {
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #090460;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .avatar-container {
-    margin-right: 20px;
-  }
-  
-  .avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
   .contact-info h1 {
     margin: 0;
     color: #ffffff;
   }
   
-  .social-icons a {
-    margin-right: 10px;
-  }
-  
-  .social-icons img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  .site-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #090460;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-
   .cta-button {
     display: inline-block;
     padding: 10px 20px;
